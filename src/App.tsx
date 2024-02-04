@@ -36,7 +36,7 @@ const App = () => {
     setPassword(generated);
   }
 
-  const [copiedText, copy] = useCopyToClipboard()
+  const [_, copy] = useCopyToClipboard()
   const handleCopy = () => {
     if (password === "") return
 
